@@ -12,7 +12,20 @@
 		A700F8241DD3F11700B33EC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A700F8221DD3F11700B33EC9 /* LaunchScreen.storyboard */; };
 		A700F8341DD3F1C000B33EC9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A700F8331DD3F1C000B33EC9 /* Info.plist */; };
 		A700F8361DD3F1D100B33EC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A700F8351DD3F1D100B33EC9 /* AppDelegate.swift */; };
-		A700F8381DD3F1DC00B33EC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A700F8371DD3F1DC00B33EC9 /* ViewController.swift */; };
+		A700F8451DD409BD00B33EC9 /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = A700F8431DD408CA00B33EC9 /* JSON.m */; };
+		A700F8461DD40AAC00B33EC9 /* JSON.h in Sources */ = {isa = PBXBuildFile; fileRef = A700F8421DD408CA00B33EC9 /* JSON.h */; };
+		A700F8481DD41E8F00B33EC9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A700F8471DD41E8F00B33EC9 /* Extensions.swift */; };
+		A700F84B1DD4246800B33EC9 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A700F84A1DD4246800B33EC9 /* User.m */; };
+		A700F84E1DD4286300B33EC9 /* Repository.m in Sources */ = {isa = PBXBuildFile; fileRef = A700F84D1DD4286300B33EC9 /* Repository.m */; };
+		A700F8511DD48BD200B33EC9 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A700F8501DD48BD200B33EC9 /* UserTableViewCell.swift */; };
+		A700F8531DD48C5200B33EC9 /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A700F8521DD48C5200B33EC9 /* RepositoryTableViewCell.swift */; };
+		A700F8551DD48FF500B33EC9 /* SearchUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A700F8541DD48FF500B33EC9 /* SearchUserTableViewController.swift */; };
+		A700F8571DD4900700B33EC9 /* SearchRepositoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A700F8561DD4900700B33EC9 /* SearchRepositoryTableViewController.swift */; };
+		A700F8591DD4904F00B33EC9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A700F8581DD4904F00B33EC9 /* Constants.swift */; };
+		A700F85B1DD491A200B33EC9 /* CacheImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A700F85A1DD491A200B33EC9 /* CacheImage.swift */; };
+		A7C783ED1DD4BBB100A3B927 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C783EC1DD4BBB100A3B927 /* ImageView.swift */; };
+		A7C783EF1DD4D46E00A3B927 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C783EE1DD4D46E00A3B927 /* UserViewController.swift */; };
+		A7C783F11DD4D47A00A3B927 /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C783F01DD4D47A00A3B927 /* RepositoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +36,22 @@
 		A700F8321DD3F1C000B33EC9 /* dextraChallenge-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "dextraChallenge-Bridging-Header.h"; path = "Settings/dextraChallenge-Bridging-Header.h"; sourceTree = "<group>"; };
 		A700F8331DD3F1C000B33EC9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Settings/Info.plist; sourceTree = "<group>"; };
 		A700F8351DD3F1D100B33EC9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Model/AppDelegate.swift; sourceTree = "<group>"; };
-		A700F8371DD3F1DC00B33EC9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controller/ViewController.swift; sourceTree = "<group>"; };
+		A700F8421DD408CA00B33EC9 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = /Users/joaopedroffranco/Desktop/Trabalho/DextraChallenge/dextraChallenge/dextraChallenge/Model/JSON.h; sourceTree = "<absolute>"; };
+		A700F8431DD408CA00B33EC9 /* JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSON.m; path = /Users/joaopedroffranco/Desktop/Trabalho/DextraChallenge/dextraChallenge/dextraChallenge/Model/JSON.m; sourceTree = "<absolute>"; };
+		A700F8471DD41E8F00B33EC9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Settings/Extensions.swift; sourceTree = "<group>"; };
+		A700F8491DD4246800B33EC9 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Model/User.h; sourceTree = "<group>"; };
+		A700F84A1DD4246800B33EC9 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Model/User.m; sourceTree = "<group>"; };
+		A700F84C1DD4286300B33EC9 /* Repository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Repository.h; path = Model/Repository.h; sourceTree = "<group>"; };
+		A700F84D1DD4286300B33EC9 /* Repository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Repository.m; path = Model/Repository.m; sourceTree = "<group>"; };
+		A700F8501DD48BD200B33EC9 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserTableViewCell.swift; path = View/UserTableViewCell.swift; sourceTree = "<group>"; };
+		A700F8521DD48C5200B33EC9 /* RepositoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepositoryTableViewCell.swift; path = View/RepositoryTableViewCell.swift; sourceTree = "<group>"; };
+		A700F8541DD48FF500B33EC9 /* SearchUserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchUserTableViewController.swift; path = Controller/SearchUserTableViewController.swift; sourceTree = "<group>"; };
+		A700F8561DD4900700B33EC9 /* SearchRepositoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchRepositoryTableViewController.swift; path = Controller/SearchRepositoryTableViewController.swift; sourceTree = "<group>"; };
+		A700F8581DD4904F00B33EC9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Settings/Constants.swift; sourceTree = "<group>"; };
+		A700F85A1DD491A200B33EC9 /* CacheImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CacheImage.swift; path = Model/CacheImage.swift; sourceTree = "<group>"; };
+		A7C783EC1DD4BBB100A3B927 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageView.swift; path = View/ImageView.swift; sourceTree = "<group>"; };
+		A7C783EE1DD4D46E00A3B927 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserViewController.swift; path = Controller/UserViewController.swift; sourceTree = "<group>"; };
+		A7C783F01DD4D47A00A3B927 /* RepositoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepositoryViewController.swift; path = Controller/RepositoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +95,14 @@
 		A700F82B1DD3F17900B33EC9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A700F85A1DD491A200B33EC9 /* CacheImage.swift */,
 				A700F8351DD3F1D100B33EC9 /* AppDelegate.swift */,
+				A700F8421DD408CA00B33EC9 /* JSON.h */,
+				A700F8431DD408CA00B33EC9 /* JSON.m */,
+				A700F8491DD4246800B33EC9 /* User.h */,
+				A700F84A1DD4246800B33EC9 /* User.m */,
+				A700F84C1DD4286300B33EC9 /* Repository.h */,
+				A700F84D1DD4286300B33EC9 /* Repository.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -75,7 +110,10 @@
 		A700F82C1DD3F18000B33EC9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				A700F8371DD3F1DC00B33EC9 /* ViewController.swift */,
+				A700F8541DD48FF500B33EC9 /* SearchUserTableViewController.swift */,
+				A700F8561DD4900700B33EC9 /* SearchRepositoryTableViewController.swift */,
+				A7C783EE1DD4D46E00A3B927 /* UserViewController.swift */,
+				A7C783F01DD4D47A00A3B927 /* RepositoryViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -83,8 +121,11 @@
 		A700F82D1DD3F18500B33EC9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A7C783EC1DD4BBB100A3B927 /* ImageView.swift */,
 				A700F81D1DD3F11700B33EC9 /* Main.storyboard */,
 				A700F8221DD3F11700B33EC9 /* LaunchScreen.storyboard */,
+				A700F8501DD48BD200B33EC9 /* UserTableViewCell.swift */,
+				A700F8521DD48C5200B33EC9 /* RepositoryTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -95,6 +136,8 @@
 				A700F8321DD3F1C000B33EC9 /* dextraChallenge-Bridging-Header.h */,
 				A700F8331DD3F1C000B33EC9 /* Info.plist */,
 				A700F8201DD3F11700B33EC9 /* Assets.xcassets */,
+				A700F8471DD41E8F00B33EC9 /* Extensions.swift */,
+				A700F8581DD4904F00B33EC9 /* Constants.swift */,
 			);
 			name = Settings;
 			sourceTree = "<group>";
@@ -174,8 +217,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A700F8381DD3F1DC00B33EC9 /* ViewController.swift in Sources */,
+				A700F8531DD48C5200B33EC9 /* RepositoryTableViewCell.swift in Sources */,
+				A700F84E1DD4286300B33EC9 /* Repository.m in Sources */,
+				A700F8461DD40AAC00B33EC9 /* JSON.h in Sources */,
+				A700F85B1DD491A200B33EC9 /* CacheImage.swift in Sources */,
+				A7C783F11DD4D47A00A3B927 /* RepositoryViewController.swift in Sources */,
+				A700F8451DD409BD00B33EC9 /* JSON.m in Sources */,
+				A700F8551DD48FF500B33EC9 /* SearchUserTableViewController.swift in Sources */,
+				A700F8511DD48BD200B33EC9 /* UserTableViewCell.swift in Sources */,
+				A7C783EF1DD4D46E00A3B927 /* UserViewController.swift in Sources */,
 				A700F8361DD3F1D100B33EC9 /* AppDelegate.swift in Sources */,
+				A700F84B1DD4246800B33EC9 /* User.m in Sources */,
+				A700F8481DD41E8F00B33EC9 /* Extensions.swift in Sources */,
+				A700F8571DD4900700B33EC9 /* SearchRepositoryTableViewController.swift in Sources */,
+				A7C783ED1DD4BBB100A3B927 /* ImageView.swift in Sources */,
+				A700F8591DD4904F00B33EC9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,31 +351,35 @@
 		A700F8291DD3F11700B33EC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 48C2S6NZC8;
-				INFOPLIST_FILE = dextraChallenge/Info.plist;
+				INFOPLIST_FILE = dextraChallenge/Settings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joaopedroffranco.dextraChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "dextraChallenge/dextraChallenge-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "dextraChallenge/Settings/dextraChallenge-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		A700F82A1DD3F11700B33EC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 48C2S6NZC8;
-				INFOPLIST_FILE = dextraChallenge/Info.plist;
+				INFOPLIST_FILE = dextraChallenge/Settings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = joaopedroffranco.dextraChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "dextraChallenge/dextraChallenge-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "dextraChallenge/Settings/dextraChallenge-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -342,6 +402,7 @@
 				A700F82A1DD3F11700B33EC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
