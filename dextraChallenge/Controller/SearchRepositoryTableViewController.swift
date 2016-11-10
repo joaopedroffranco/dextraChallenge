@@ -73,6 +73,7 @@ extension SearchRepositoryTableViewController: UISearchBarDelegate {
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         if (searchBar.text != ""){
+            searchController.dismiss(animated: true, completion: nil)
             JSON.parseRepo(withURL: Constant.apiUrl + Constant.repositories + searchBar.text!.joined) { (error, repositories) in
                 if error == nil {
                     self.repositories = repositories as! [Repository]

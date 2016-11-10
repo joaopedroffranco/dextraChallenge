@@ -10,6 +10,7 @@ import UIKit
 
 extension UIView {
     
+    /** Remove activity indicator on view */
     func removeLoading(){
         for view in self.subviews {
             if view is UIActivityIndicatorView{
@@ -20,6 +21,7 @@ extension UIView {
         }
     }
 
+    /** Add activity indicator on view */
     func startLoading(style: UIActivityIndicatorViewStyle){
         removeLoading()
         
@@ -37,6 +39,7 @@ extension UIView {
 
 extension String {
     
+    /** String without whitespaces */
     var joined: String {
         return components(separatedBy: .whitespaces).joined(separator: "")
     }

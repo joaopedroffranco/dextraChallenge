@@ -16,6 +16,9 @@ class UserTableViewCell: UITableViewCell {
     
     var sessionAvatar: URLSessionDataTask?
     
+    /** Fill cell with user's information
+        @param User
+    */
     func fill(user: User){
         (_, sessionAvatar) = CacheImage.sharedInstance.image(user.avatar) { (error, image) in
             if error == nil{

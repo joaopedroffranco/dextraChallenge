@@ -16,6 +16,9 @@ class RepositoryTableViewCell: UITableViewCell {
     @IBOutlet weak var repositoryStargazersLabel: UILabel!
     @IBOutlet weak var repositoryForksLabel: UILabel!
     
+    /** Fill cell with repository's information
+     @param Repository
+     */
     func fill(repository: Repository){
         repositoryNameLabel.text = repository.fullname
         repositoryStargazersLabel.text = repository.startgazers.stringValue

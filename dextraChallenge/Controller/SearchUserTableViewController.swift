@@ -78,6 +78,7 @@ extension SearchUserTableViewController: UISearchBarDelegate {
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         if (searchBar.text != ""){
+            searchController.dismiss(animated: true, completion: nil)
             JSON.parseUsers(withURL: Constant.apiUrl + Constant.users + searchBar.text!.joined) { (error, users) in
                 if error == nil {
                     self.users = users as! [User]
