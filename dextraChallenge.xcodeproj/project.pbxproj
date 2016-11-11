@@ -25,6 +25,7 @@
 		A700F85B1DD491A200B33EC9 /* CacheImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A700F85A1DD491A200B33EC9 /* CacheImage.swift */; };
 		A7C783EF1DD4D46E00A3B927 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C783EE1DD4D46E00A3B927 /* UserViewController.swift */; };
 		A7C783F11DD4D47A00A3B927 /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C783F01DD4D47A00A3B927 /* RepositoryViewController.swift */; };
+		A7C783F51DD5127C00A3B927 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C783F41DD5127C00A3B927 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		A700F85A1DD491A200B33EC9 /* CacheImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CacheImage.swift; path = Model/CacheImage.swift; sourceTree = "<group>"; };
 		A7C783EE1DD4D46E00A3B927 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserViewController.swift; path = Controller/UserViewController.swift; sourceTree = "<group>"; };
 		A7C783F01DD4D47A00A3B927 /* RepositoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RepositoryViewController.swift; path = Controller/RepositoryViewController.swift; sourceTree = "<group>"; };
+		A7C783F41DD5127C00A3B927 /* ImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageView.swift; path = View/ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				A700F8221DD3F11700B33EC9 /* LaunchScreen.storyboard */,
 				A700F8501DD48BD200B33EC9 /* UserTableViewCell.swift */,
 				A700F8521DD48C5200B33EC9 /* RepositoryTableViewCell.swift */,
+				A7C783F41DD5127C00A3B927 /* ImageView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C783F51DD5127C00A3B927 /* ImageView.swift in Sources */,
 				A700F8531DD48C5200B33EC9 /* RepositoryTableViewCell.swift in Sources */,
 				A700F84E1DD4286300B33EC9 /* Repository.m in Sources */,
 				A700F8461DD40AAC00B33EC9 /* JSON.h in Sources */,

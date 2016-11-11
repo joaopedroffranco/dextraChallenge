@@ -44,10 +44,10 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TOA-tf-ZUJ" id="1BH-8F-g33">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default" translatesAutoresizingMaskIntoConstraints="NO" id="j3y-ng-dbR">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default" translatesAutoresizingMaskIntoConstraints="NO" id="j3y-ng-dbR" customClass="ImageView" customModule="dextraChallenge" customModuleProvider="target">
                                             <rect key="frame" x="16" y="7" width="63.5" height="64"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="j3y-ng-dbR" secondAttribute="height" multiplier="1:1" id="Cdg-yF-fcW"/>
@@ -285,7 +285,7 @@
             <objects>
                 <navigationController id="MBg-pi-iu9" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Buscar usuários" image="user" id="SQ3-p7-z6I"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Das-ye-Qz3">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Das-ye-Qz3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.46372354030000001" green="0.46409505610000001" blue="0.46378099919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -583,7 +583,7 @@
             <objects>
                 <navigationController id="Yzm-D6-78F" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Buscar repositórios" image="repositories" id="KMP-Tt-0w1"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="aAF-ph-IHd">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aAF-ph-IHd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.46372354030000001" green="0.46409505610000001" blue="0.46378099919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
